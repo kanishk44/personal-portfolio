@@ -80,7 +80,7 @@ const Hero = () => {
             </motion.span>
           </motion.div>
           <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
-            Hello, I'm Kanishk
+            Hello, I&apos;m Kanishk
           </h1>
           <p className="text-center text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
             I build beautiful and scalable web applications using the latest

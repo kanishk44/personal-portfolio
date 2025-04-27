@@ -45,11 +45,14 @@ const Contact = () => {
         setFormData({ name: "", email: "", subject: "", message: "" });
       } else {
         setStatus({ loading: false, success: false, error: true });
-        setStatusMessage("Failed to send message. Please try again.");
+        setStatusMessage(
+          data.error || "Failed to send message. Please try again."
+        );
       }
     } catch (error) {
       setStatus({ loading: false, success: false, error: true });
       setStatusMessage("An error occurred. Please try again later.");
+      console.error("Error:", error);
     }
   };
 
