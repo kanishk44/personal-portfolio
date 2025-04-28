@@ -1,6 +1,5 @@
 "use client";
 import Heading from "./sub/Heading";
-import Image from "next/image";
 import { skillsData } from "@/assets";
 import { motion } from "framer-motion";
 
@@ -18,6 +17,20 @@ const Skills = () => {
       y: 30,
     },
   };
+
+  const iconVariants = {
+    hover: {
+      scale: 1.2,
+      rotate: 360,
+      transition: {
+        duration: 0.5,
+        type: "spring",
+        stiffness: 260,
+        damping: 20,
+      },
+    },
+  };
+
   return (
     <div
       id="skills"
@@ -31,15 +44,25 @@ const Skills = () => {
             variants={variants}
             initial="hidden"
             whileInView="visible"
-            whileHover={{ scale: 1.1 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0 10px 20px rgba(0,0,0,0.1)",
+              borderColor: "#f59e0b",
+            }}
             viewport={{ margin: "50px", once: true }}
             key={i}
-            className="flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 px-5 py-2 lg:px-2"
+            className="group flex items-center justify-center gap-x-3 rounded-xl border-2 border-yellow-500/50 bg-zinc-100 px-5 py-3 lg:px-3 hover:bg-zinc-50 dark:bg-zinc-800 dark:hover:bg-zinc-700 transition-all duration-300"
           >
-            <div className="w-10 h-10 rounded-full bg-zinc-300 grid place-items-center">
-              {item.icon}
-            </div>
-            <p className="text-sm text-gray-600">{item.name}</p>
+            <motion.div
+              className="w-12 h-12 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 grid place-items-center shadow-lg group-hover:shadow-xl transition-shadow duration-300"
+              variants={iconVariants}
+              whileHover="hover"
+            >
+              <div className="text-white text-xl">{item.icon}</div>
+            </motion.div>
+            <p className="text-sm font-medium text-gray-600 dark:text-gray-300 group-hover:text-yellow-600 dark:group-hover:text-yellow-400 transition-colors duration-300">
+              {item.name}
+            </p>
           </motion.div>
         ))}
       </div>
