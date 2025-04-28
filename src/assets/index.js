@@ -475,14 +475,14 @@ export const navbarData = [
     icon: <BriefcaseLineIcon />,
   },
   {
-    id: "reviews",
-    name: "Reviews",
-    icon: <UserStarLineIcon />,
-  },
-  {
     id: "projects",
     name: "Projects",
     icon: <ProjectorLineIcon />,
+  },
+  {
+    id: "reviews",
+    name: "Reviews",
+    icon: <UserStarLineIcon />,
   },
   {
     id: "contact",
