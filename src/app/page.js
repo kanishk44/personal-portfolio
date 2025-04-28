@@ -45,8 +45,8 @@ export default function Home() {
           <About />
           <Experience />
           <Skills />
-          <Reviews />
           <Projects />
+          <Reviews />
           <Contact />
         </div>
       </Toggle>
