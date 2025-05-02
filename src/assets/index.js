@@ -119,7 +119,7 @@ export const experienceData = [
     title: "Full Stack Developer",
     company: "ZoomLocal Pvt. Ltd.",
     experience: [
-      "Working on a social media workflow automation tool to help businesses manage their social media content generation with Vue.js, Node.js, Firebase, & GCP.",
+      "Worked on a social media workflow automation tool to help businesses manage their social media content generation with Vue.js, Node.js, Firebase, & GCP.",
     ],
   },
 ];
