@@ -11,12 +11,12 @@ const Navbar = ({ id }) => {
           Khedkar
         </span>
       </Link>
-      <div className="flex flex-col gap-y-3 xl:gap-y-1 sm:gap-y-2 xs:gap-y-0">
+      <div className="flex flex-col gap-y-8 xl:gap-y-6 sm:gap-y-5 xs:gap-y-4">
         {navbarData.map((item, i) => (
           <Link
             href={`/#${item.id}`}
             key={i}
-            className="group flex flex-col items-center gap-y-2"
+            className="group relative flex flex-col items-center"
           >
             <span
               className={`text-2xl group-hover:scale-125 xl:group-hover:scale-115 xs:group-hover:scale-100 transition-all ${
@@ -28,20 +28,20 @@ const Navbar = ({ id }) => {
               {item.icon}
             </span>
             <span
-              className={`text-[10px] tracking-wide opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 text-center dark:text-white ${
-                i % 2 === 0 ? "translate-x-2" : "-translate-x-2"
-              } ${item.id === id && "-translate-x-0 opacity-100"}`}
+              className={`text-[10px] tracking-wide opacity-0 group-hover:opacity-100 transition-all duration-300 text-center dark:text-white absolute left-1/2 -translate-x-1/2 top-full mt-1 ${
+                item.id === id ? "opacity-100" : "opacity-0"
+              }`}
             >
               {item.name}
             </span>
           </Link>
         ))}
       </div>
-      <p className="flex items-center justify-center text-[13px] xs:text-[11px] text-gray-500 mt-6">
-        <span className="absolute left-1/2 w-max flex items-center -rotate-90 origin-bottom-left tracking-wider dark:text-gray-200 transition-colors">
+      <div className="relative h-20 flex items-center justify-center">
+        <p className="absolute left-1/2 -translate-x-1/2 w-max flex items-center -rotate-90 origin-center text-[13px] xs:text-[11px] text-gray-500 tracking-wider dark:text-gray-200 transition-colors">
           {copyRightIcon} 2023 - {new Date().getFullYear()}
-        </span>
-      </p>
+        </p>
+      </div>
     </div>
   );
 };
