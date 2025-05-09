@@ -268,13 +268,15 @@ export const projectsData = [
     url: "/projects/expense-tracker.png",
     tech: ["NodeJS", "Express", "MongoDB", "Bootstrap"],
     link: "https://github.com/kanishk44/expense-tracker-backend",
+    github: "https://github.com/kanishk44/expense-tracker-backend",
   },
   {
     name: "Restaurant Delivery App",
     desc: "A full-stack food ordering platform built with React, Vite, Firebase, and TailwindCSS that enables customers to browse menus, place orders, and track deliveries in real-time. Theapplication features user authentication, order management, and separate admin interfaces for restaurant staff to process incoming orders efficiently.",
     url: "/projects/restaurant-delivery.png",
     tech: ["ReactJS", "Firebase", "TailwindCSS"],
-    link: "https://github.com/kanishk44/restaurant-delivery",
+    link: "https://restaurant-delivery-ten.vercel.app/",
+    github: "https://github.com/kanishk44/restaurant-delivery",
   },
   {
     name: "Mailbox Client",
@@ -282,6 +284,7 @@ export const projectsData = [
     url: "/projects/mailbox-client.png",
     tech: ["ReactJS", "NodeJS", "MongoDB", "TailwindCSS"],
     link: "https://github.com/kanishk44/mailbox-client",
+    github: "https://github.com/kanishk44/mailbox-client",
   },
   {
     name: "Charity Donation Platform",
@@ -289,6 +292,7 @@ export const projectsData = [
     url: "/projects/charity-donation.png",
     tech: ["NodeJS", "Express", "MySQL", "Bootstrap"],
     link: "https://github.com/kanishk44/charity-donation",
+    github: "https://github.com/kanishk44/charity-donation",
   },
   {
     name: "Group Chat",
@@ -296,6 +300,7 @@ export const projectsData = [
     url: "/projects/group-chat.png",
     tech: ["NodeJS", "Express", "MySQL", "Socket.IO", "AWS S3"],
     link: "https://github.com/kanishk44/group-chat",
+    github: "https://github.com/kanishk44/group-chat",
   },
   {
     name: "Portfolio Website",
@@ -303,6 +308,7 @@ export const projectsData = [
     url: "/projects/portfolio.png",
     tech: ["NextJS", "TailwindCSS", "FramerMotion"],
     link: "https://github.com/kanishk44/personal-portfolio",
+    github: "https://github.com/kanishk44/personal-portfolio",
   },
 ];
 
