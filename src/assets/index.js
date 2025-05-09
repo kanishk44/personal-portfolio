@@ -283,7 +283,7 @@ export const projectsData = [
     desc: "A modern email management solution developed using React, Node.js, and MongoDB that provides a seamless email experience with features like JWT authentication, real-time updates, and a rich text editor. The application employs custom React hooks to optimize API calls while maintaining responsive design across all devices.",
     url: "/projects/mailbox-client.png",
     tech: ["ReactJS", "NodeJS", "MongoDB", "TailwindCSS"],
-    link: "https://github.com/kanishk44/mailbox-client",
+    link: "https://mailbox-client-8qu7.vercel.app/",
     github: "https://github.com/kanishk44/mailbox-client",
   },
   {
