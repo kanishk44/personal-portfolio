@@ -195,10 +195,6 @@ export const skillsData = [
     icon: <SiMysql />,
   },
   {
-    name: "VS Code",
-    icon: <SiVisualstudiocode />,
-  },
-  {
     name: "Docker",
     icon: <SiDocker />,
   },
