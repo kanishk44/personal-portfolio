@@ -307,7 +307,7 @@ export const projectsData = [
     desc: "A portfolio website built with NextJS, TailwindCSS, and FramerMotion that showcases my skills, projects, and experiences.",
     url: "/projects/portfolio.png",
     tech: ["NextJS", "TailwindCSS", "FramerMotion"],
-    link: "https://github.com/kanishk44/personal-portfolio",
+    link: "https://kanishkcodes.tech/",
     github: "https://github.com/kanishk44/personal-portfolio",
   },
 ];
