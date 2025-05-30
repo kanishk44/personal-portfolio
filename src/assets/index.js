@@ -87,7 +87,7 @@ export const aboutText =
 // Experience
 export const experienceData = [
   {
-    year: 4,
+    year: 3,
     title: "Frontend Developer",
     company: "Vidushi Infotech SSP Pvt. Ltd.",
     experience: [
@@ -98,7 +98,7 @@ export const experienceData = [
     ],
   },
   {
-    year: 3,
+    year: 2,
     title: "Teaching Assistant",
     company: "New Jersey Institute of Technology",
     experience: [
@@ -107,19 +107,11 @@ export const experienceData = [
     ],
   },
   {
-    year: 2,
+    year: 1,
     title: "Backend Developer",
     company: "ZoomLocal Pvt. Ltd.",
     experience: [
       " Built a Social Media Posts Aggregator for given Industry, Hashtags, and social handles for platforms like Twitter, Instagram, Facebook & YouTube using Node.js/Vue.js and deployed it on GCP (Google Cloud Platform).",
-    ],
-  },
-  {
-    year: 1,
-    title: "Full Stack Developer",
-    company: "ZoomLocal Pvt. Ltd.",
-    experience: [
-      "Worked on a social media workflow automation tool to help businesses manage their social media content generation with Vue.js, Node.js, Firebase, & GCP.",
     ],
   },
 ];
