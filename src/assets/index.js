@@ -87,7 +87,7 @@ export const aboutText =
 // Experience
 export const experienceData = [
   {
-    year: 3,
+    year: 4,
     title: "Frontend Developer",
     company: "Vidushi Infotech SSP Pvt. Ltd.",
     experience: [
@@ -97,13 +97,22 @@ export const experienceData = [
       "● Implemented WCAG accessibility standards and utilized Git for streamlined workflow management.",
     ],
   },
+
   {
-    year: 2,
+    year: 3,
     title: "Teaching Assistant",
     company: "New Jersey Institute of Technology",
     experience: [
       "● Worked closely with the course instructor to ideate & design lab assignments for linux kernel programming.",
       "● Assisted a class of 39 students with lab assignments & homework related to linux kernel and writing simple kernel modules.",
+    ],
+  },
+  {
+    year: 2,
+    title: "Graduate Student (Master's in Computer Science)",
+    company: "New Jersey Institute of Technology",
+    experience: [
+      "Relevant Coursework: Software Design & Production Methodology | Cloud Computing | Web Systems Development | Data Management & System Design | Cryptography & Security | Operating Systems Design | Data Structures & Algorithms | Internet & Higher Layer Protocols | Security & Privacy in Computer Systems | Information System Principles",
     ],
   },
   {
