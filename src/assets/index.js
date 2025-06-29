@@ -117,10 +117,14 @@ export const experienceData = [
   },
   {
     year: 1,
-    title: "Backend Developer",
-    company: "ZoomLocal Pvt. Ltd.",
+    title: "Full Stack Developer",
+    company: "Ziff Davis",
     experience: [
-      " Built a Social Media Posts Aggregator for given Industry, Hashtags, and social handles for platforms like Twitter, Instagram, Facebook & YouTube using Node.js/Vue.js and deployed it on GCP (Google Cloud Platform).",
+      "● Built 5+ full-stack applications (MongoDB, Express, React, Node.js) serving 10K+ users with 99.5% uptime",
+      "● Optimised database performance, reducing API response times by 45%",
+      "● Developed RESTful APIs processing 50K+ daily requests with 99.9% success rate",
+      "● Integrated payment gateways and AWS S3, boosting conversion rates by 25%",
+      "● Implemented Docker CI/CD pipelines, cutting deployment time by 60%",
     ],
   },
 ];
