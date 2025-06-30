@@ -81,7 +81,7 @@ export const downloadIcon = <DownloadLineIcon />;
 export const arrowLeftIcon = <ArrowLeftSFillIcon />;
 
 export const aboutText =
-  "Full Stack Developer with expertise in MERN stack (Node.js, React, MongoDB/MySQL) and cloud platforms (AWS, GCP). I hold a Master's in Computer Science from New Jersey Institute of Technology and bring 1+ years of professional experience to my projects. I specialize in building scalable web applications with responsive design and robust backend architectures. My portfolio includes expense tracking systems, mailbox clients, and e-commerce platforms—all focused on solving real-world problems. My technical toolkit includes JavaScript (ES6), React/Next.js, Node.js/Express, TailwindCSS, and various database systems (MySQL, MongoDB, Firebase). I excel at implementing secure authentication, payment integrations, and efficient cloud deployments. Passionate about creating intuitive, high-performance applications that deliver exceptional user experiences. Let's connect and build something impactful together!";
+  "Full Stack Developer with expertise in MERN stack (Node.js, React, MongoDB/MySQL) and cloud platforms (AWS, GCP). I hold a Master's in Computer Science from New Jersey Institute of Technology and bring 2+ years of professional experience to my projects. I specialize in building scalable web applications with responsive design and robust backend architectures. My portfolio includes expense tracking systems, mailbox clients, and e-commerce platforms—all focused on solving real-world problems. My technical toolkit includes JavaScript (ES6), React/Next.js, Node.js/Express, TailwindCSS, and various database systems (MySQL, MongoDB, Firebase). I excel at implementing secure authentication, payment integrations, and efficient cloud deployments. Passionate about creating intuitive, high-performance applications that deliver exceptional user experiences. Let's connect and build something impactful together!";
 // End of About Me
 
 // Experience
@@ -118,7 +118,7 @@ export const experienceData = [
   {
     year: 1,
     title: "Full Stack Developer",
-    company: "Ziff Davis",
+    company: "TalentRupt",
     experience: [
       "● Built 5+ full-stack applications (MongoDB, Express, React, Node.js) serving 10K+ users with 99.5% uptime",
       "● Optimised database performance, reducing API response times by 45%",
