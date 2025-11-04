@@ -6,7 +6,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import { useRef } from "react";
 
 const Experience = () => {
-  const years = [2021, 2022, 2023, 2024];
+  const years = [2021, 2022, 2023, 2024, 2025];
 
   const containerRef = useRef(null);
 

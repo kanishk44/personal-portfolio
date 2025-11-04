@@ -15,20 +15,17 @@ import {
 } from "react-icons/fa";
 import {
   SiExpress,
-  SiSocketdotio,
   SiRedux,
   SiJavascript,
   SiDocker,
   SiNextdotjs,
   SiMysql,
-  SiAmazons3,
-  SiAmazonec2,
   SiCplusplus,
-  SiVisualstudiocode,
   SiMongodb,
   SiPostgresql,
   SiFirebase,
   SiTailwindcss,
+  SiTypescript,
 } from "react-icons/si";
 
 /* eslint-disable react/jsx-key */
@@ -87,7 +84,7 @@ export const aboutText =
 // Experience
 export const experienceData = [
   {
-    year: 4,
+    year: 5,
     title: "Frontend Developer",
     company: "Vidushi Infotech SSP Pvt. Ltd.",
     experience: [
@@ -97,9 +94,8 @@ export const experienceData = [
       "● Implemented WCAG accessibility standards and utilized Git for streamlined workflow management.",
     ],
   },
-
   {
-    year: 3,
+    year: 4,
     title: "Teaching Assistant",
     company: "New Jersey Institute of Technology",
     experience: [
@@ -108,7 +104,7 @@ export const experienceData = [
     ],
   },
   {
-    year: 2,
+    year: 3,
     title: "Graduate Student (Master's in Computer Science)",
     company: "New Jersey Institute of Technology",
     experience: [
@@ -116,7 +112,7 @@ export const experienceData = [
     ],
   },
   {
-    year: 1,
+    year: 2,
     title: "Full Stack Developer",
     company: "TalentRupt",
     experience: [
@@ -127,6 +123,17 @@ export const experienceData = [
       "● Implemented Docker CI/CD pipelines, cutting deployment time by 60%",
     ],
   },
+  {
+    year: 1,
+    title: "Full Stack Developer",
+    company: "Ariveguru Technologies Pvt. Ltd.",
+    experience: [
+      "● Designed and developed AI agent systems using Node.js, TypeScript, and Mastra agentic framework (mastra.ai), enabling intelligent automation and workflow orchestration.",
+      "● Building scalable backend services with MongoDB and AWS infrastructure including EC2, S3, Lambda, and VPC for secure, high-performance agent deployments.",
+      "● Implementing containerized microservices using Docker for consistent development and production environments, ensuring seamless CI/CD integration.",
+      "● Designing RESTful APIs and serverless functions for AI agent communication, orchestration, and data processing workflows.",
+    ],
+  },
 ];
 
 // Skills
@@ -134,6 +141,10 @@ export const skillsData = [
   {
     name: "JavaScript",
     icon: <SiJavascript />,
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript />,
   },
   {
     name: "Python",
@@ -204,12 +215,8 @@ export const skillsData = [
     icon: <SiDocker />,
   },
   {
-    name: "AWS EC2",
-    icon: <SiAmazonec2 />,
-  },
-  {
-    name: "AWS S3",
-    icon: <SiAmazons3 />,
+    name: "AWS",
+    icon: <FaAws />,
   },
 ];
 
