@@ -3,19 +3,9 @@ import InstagramLineIcon from "remixicon-react/InstagramLineIcon";
 import LinkedInLineIcon from "remixicon-react/LinkedinLineIcon";
 import GithubLineIcon from "remixicon-react/GithubLineIcon";
 import TwitterLineIcon from "remixicon-react/TwitterLineIcon";
-import {
-  FaReact,
-  FaNodeJs,
-  FaHtml5,
-  FaCss3Alt,
-  FaPython,
-  FaLinux,
-  FaAws,
-  FaGit,
-} from "react-icons/fa";
+import { FaReact, FaNodeJs, FaPython, FaAws, FaGit } from "react-icons/fa";
 import {
   SiExpress,
-  SiRedux,
   SiJavascript,
   SiDocker,
   SiNextdotjs,
@@ -26,6 +16,8 @@ import {
   SiFirebase,
   SiTailwindcss,
   SiTypescript,
+  SiRedis,
+  SiVercel,
 } from "react-icons/si";
 
 /* eslint-disable react/jsx-key */
@@ -78,60 +70,51 @@ export const downloadIcon = <DownloadLineIcon />;
 export const arrowLeftIcon = <ArrowLeftSFillIcon />;
 
 export const aboutText =
-  "Full Stack Developer with expertise in MERN stack (Node.js, React, MongoDB/MySQL) and cloud platforms (AWS, GCP). I hold a Master's in Computer Science from New Jersey Institute of Technology and bring 2+ years of professional experience to my projects. I specialize in building scalable web applications with responsive design and robust backend architectures. My portfolio includes expense tracking systems, mailbox clients, and e-commerce platforms—all focused on solving real-world problems. My technical toolkit includes JavaScript (ES6), React/Next.js, Node.js/Express, TailwindCSS, and various database systems (MySQL, MongoDB, Firebase). I excel at implementing secure authentication, payment integrations, and efficient cloud deployments. Passionate about creating intuitive, high-performance applications that deliver exceptional user experiences. Let's connect and build something impactful together!";
+  "Backend-focused Full Stack Engineer with 3+ years of experience building scalable APIs, distributed systems, and AI-powered applications. I hold a Master's in Computer Science (GPA 3.8) from New Jersey Institute of Technology. Proficient in Node.js, TypeScript, and React, with hands-on experience designing microservices, integrating LLM-based workflows, and deploying cloud-native systems on AWS and GCP using Docker and CI/CD. I've built production systems serving 10,000+ users, processed 50,000+ daily API requests, and architected AI agent platforms using the Mastra agentic framework. Strong focus on performance, reliability, and shipping production-ready software in fast-paced environments.";
 // End of About Me
 
 // Experience
 export const experienceData = [
   {
-    year: 5,
+    year: 1,
     title: "Frontend Developer",
-    company: "Vidushi Infotech SSP Pvt. Ltd.",
+    company: "Vidushi Infotech — Pune, India (Oct 2020 – Aug 2021)",
     experience: [
       "● Developed and maintained React-based code for in-house and client websites, reducing bug reports by 20%.",
-      "● Collaborated with cross-functional teams in an agile environment, accelerating project timelines by 15%.",
       "● Optimized website performance by 30% and ensured cross-browser compatibility with 98% user satisfaction.",
-      "● Implemented WCAG accessibility standards and utilized Git for streamlined workflow management.",
-    ],
-  },
-  {
-    year: 4,
-    title: "Teaching Assistant",
-    company: "New Jersey Institute of Technology",
-    experience: [
-      "● Worked closely with the course instructor to ideate & design lab assignments for linux kernel programming.",
-      "● Assisted a class of 39 students with lab assignments & homework related to linux kernel and writing simple kernel modules.",
-    ],
-  },
-  {
-    year: 3,
-    title: "Graduate Student (Master's in Computer Science)",
-    company: "New Jersey Institute of Technology",
-    experience: [
-      "Relevant Coursework: Software Design & Production Methodology | Cloud Computing | Web Systems Development | Data Management & System Design | Cryptography & Security | Operating Systems Design | Data Structures & Algorithms | Internet & Higher Layer Protocols | Security & Privacy in Computer Systems | Information System Principles",
     ],
   },
   {
     year: 2,
     title: "Full Stack Developer",
-    company: "TalentRupt",
+    company: "TalentRupt — Pune, India (Jan 2024 – May 2025)",
     experience: [
-      "● Built 5+ full-stack applications (MongoDB, Express, React, Node.js) serving 10K+ users with 99.5% uptime",
-      "● Optimised database performance, reducing API response times by 45%",
-      "● Developed RESTful APIs processing 50K+ daily requests with 99.9% success rate",
-      "● Integrated payment gateways and AWS S3, boosting conversion rates by 25%",
-      "● Implemented Docker CI/CD pipelines, cutting deployment time by 60%",
+      "● Developed and deployed 5+ full-stack web applications using MongoDB, Express.js, React, and Node.js, serving 10,000+ active users with 99.5% uptime.",
+      "● Optimized database queries, reducing API response times by 45% and improving overall application performance.",
+      "● Built RESTful APIs with comprehensive error handling and validation, processing 50,000+ daily requests with 99.9% success rate.",
+      "● Integrated third-party services including payment gateways (Stripe/Razorpay) and cloud storage (AWS S3), increasing user conversion rates by 25%.",
     ],
   },
   {
-    year: 1,
+    year: 3,
     title: "Full Stack Developer",
-    company: "Ariveguru Technologies Pvt. Ltd.",
+    company:
+      "Ariveguru Technology Solutions — Bangalore, India (Jul 2025 – Jan 2026)",
     experience: [
-      "● Designed and developed AI agent systems using Node.js, TypeScript, and Mastra agentic framework (mastra.ai), enabling intelligent automation and workflow orchestration.",
-      "● Building scalable backend services with MongoDB and AWS infrastructure including EC2, S3, Lambda, and VPC for secure, high-performance agent deployments.",
-      "● Implementing containerized microservices using Docker for consistent development and production environments, ensuring seamless CI/CD integration.",
-      "● Designing RESTful APIs and serverless functions for AI agent communication, orchestration, and data processing workflows.",
+      "● Architected and developed AI agent systems using Node.js, TypeScript, and Mastra agentic framework (mastra.ai), enabling intelligent automation and workflow orchestration.",
+      "● Built scalable backend services with MongoDB and AWS infrastructure including EC2, S3, Lambda, and VPC for secure, high-performance agent deployments.",
+      "● Implemented containerized microservices using Docker for consistent development and production environments, ensuring seamless CI/CD integration.",
+      "● Designed RESTful APIs and serverless functions for AI agent communication, orchestration, and data processing workflows.",
+    ],
+  },
+  {
+    year: 4,
+    title: "Senior Software Engineer",
+    company: "Square Yards — Mumbai, India (Jan 2026 – Present)",
+    experience: [
+      "● Built and maintained a Node.js/Express campaign management API with MongoDB, Redis, and Google Cloud Storage, integrating external voice/AI services (SUPERAGENTPRO, BEATS) for create/update/publish flows, file handling, and test calls.",
+      "● Documented APIs with OpenAPI and enforced quality with Jest tests.",
+      "● Rewrote an AI calling manager from Python to TypeScript/Express with MongoDB, REST APIs for campaign calls and webhooks, and worker jobs for calls, transcripts, and post-call analysis.",
     ],
   },
 ];
@@ -155,10 +138,6 @@ export const skillsData = [
     icon: <SiCplusplus />,
   },
   {
-    name: "Linux",
-    icon: <FaLinux />,
-  },
-  {
     name: "Git",
     icon: <FaGit />,
   },
@@ -167,20 +146,8 @@ export const skillsData = [
     icon: <FaReact />,
   },
   {
-    name: "Redux",
-    icon: <SiRedux />,
-  },
-  {
     name: "NextJS",
     icon: <SiNextdotjs />,
-  },
-  {
-    name: "HTML",
-    icon: <FaHtml5 />,
-  },
-  {
-    name: "CSS",
-    icon: <FaCss3Alt />,
   },
   {
     name: "TailwindCSS",
@@ -195,6 +162,22 @@ export const skillsData = [
     icon: <SiExpress />,
   },
   {
+    name: "Docker",
+    icon: <SiDocker />,
+  },
+  {
+    name: "Redis",
+    icon: <SiRedis />,
+  },
+  {
+    name: "Vercel",
+    icon: <SiVercel />,
+  },
+  {
+    name: "AWS",
+    icon: <FaAws />,
+  },
+  {
     name: "MongoDB",
     icon: <SiMongodb />,
   },
@@ -203,20 +186,12 @@ export const skillsData = [
     icon: <SiPostgresql />,
   },
   {
-    name: "Firebase",
-    icon: <SiFirebase />,
-  },
-  {
     name: "MySQL",
     icon: <SiMysql />,
   },
   {
-    name: "Docker",
-    icon: <SiDocker />,
-  },
-  {
-    name: "AWS",
-    icon: <FaAws />,
+    name: "Firebase",
+    icon: <SiFirebase />,
   },
 ];
 
